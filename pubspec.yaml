@@ -1,0 +1,34 @@
+name: music_app
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: ^0.20.1
+  http: ^0.13.3
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/02 JE CROIS.mp3
+    - assets/Black M - Je garde le sourire (audio).mp3
+    - assets/Damso_-_Graine_de_sablier(256k).mp3
+    - assets/Boom_Boom_-_RedOne,_Daddy_Yankee,_French_Montana___Dinah_Jane_-_Official_Video.mp3
+    - assets/Black M - La nuit porte conseil (Clip officiel).mp3
+    - assets/Damso_-_N._J_Respect_R(256k).mp3
+    - assets/background1.png
+    - assets/BA (2).png
+    - assets/artist.png
